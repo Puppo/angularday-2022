@@ -1,0 +1,27 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "demo",
+  "steps": [
+    {
+      "file": "apps/ecommerce/src/app/app.routing.module.ts",
+      "description": "01. Routing",
+      "line": 4
+    },
+    {
+      "file": "libs/products/src/index.ts",
+      "description": "02. Libraries\n\nN.b. the index.ts file to export the features",
+      "line": 1
+    },
+    {
+      "file": "libs/products/project.json",
+      "description": "03. The scripts",
+      "line": 7
+    },
+    {
+      "file": "nx.json",
+      "description": "04. the branch uses to understand the changes",
+      "line": 5
+    }
+  ],
+  "ref": "main"
+}

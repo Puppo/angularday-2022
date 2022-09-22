@@ -1,5 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "cart": "libs/cart",
+    "ecommerce": "apps/ecommerce",
+    "ecommerce-e2e": "apps/ecommerce-e2e",
+    "home": "libs/home",
+    "products": "libs/products",
+    "ui": "libs/ui",
+    "utils-format": "libs/utils/format"
+  }
 }
